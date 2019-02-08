@@ -1,0 +1,2 @@
+github "bahlo/SwiftGif" ~> 1.7.0
+git "git@github.com:Giphy/giphy-ios-sdk-core.git" "master"

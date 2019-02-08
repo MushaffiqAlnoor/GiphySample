@@ -1,0 +1,9 @@
+{
+  "commitish" : "d193cfd8252a10cc62024c0dba12e4570724d617",
+  "iOS" : [
+    {
+      "name" : "GiphyCoreSDK",
+      "hash" : "c590306d33f68654da7b581dafd1bfeccc4b394ec7f1fae6fb063782c04c793a"
+    }
+  ]
+}
