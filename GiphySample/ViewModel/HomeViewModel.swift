@@ -12,7 +12,7 @@ import GiphyCoreSDK
 class HomeViewModel {
     
     private var gifList:[GPHMedia]?
-    private let maxLimit = 10
+    private let maxLimit = 25
     private var offset = 0
     
     var numberOfGifs: Int {
