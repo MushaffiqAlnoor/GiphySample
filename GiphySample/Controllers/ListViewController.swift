@@ -108,16 +108,16 @@ extension ListViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         
+        if indexPath.row == homeViewModel.numberOfGifs - 1 {
+            getGifs(true)
+        }
+        
         let gifObject = homeViewModel.getGifObject(indexPath)
         cell.gifDownloadDelegate = self
         cell.setData(gifObject)
         
         guard let url = gifObject.images?.fixedWidth?.gifUrl else {
             return UITableViewCell()
-        }
-        
-        if indexPath.row == homeViewModel.numberOfGifs - 1 {
-            getGifs(true)
         }
         
         DispatchQueue.global(qos: .userInitiated).async {
